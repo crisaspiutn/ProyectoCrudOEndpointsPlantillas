@@ -1,0 +1,5 @@
+mejor opcion de todas stringconcatenation
+https://stackoverflow.com/questions/47605/string-concatenation-concat-vs-operator
+
+opciones
+https://es.stackoverflow.com/questions/207660/c%C3%B3mo-hago-una-concatenaci%C3%B3n-de-variables-en-javascript#:~:text=Para%20concatenar%20en%20javascript%20se%20usa%20el%20signo%20%2B%20.

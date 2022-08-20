@@ -1,0 +1,2 @@
+https://www.delftstack.com/es/howto/javascript/play-audio-javascript/#:~:text=Utilice%20.-,play()%20para%20reproducir%20archivos%20de%20audio%20en%20JavaScript,play()%20.
+https://www.delftstack.com/es/howto/javascript/play-audio-javascript/#:~:text=Utilice%20.-,play()%20para%20reproducir%20archivos%20de%20audio%20en%20JavaScript,play()%20.

@@ -1,0 +1,8 @@
+        console.log(e.currentTarget); // da html del tocado
+        console.log(e.target); // da html del ultimo tocado
+        console.log(e.BUBBLING_PHASE); // 3
+        console.log(e.clientX);
+        console.log(e.clientY);
+        console.log(e.button); // 0
+        console.log(e.relatedTarget);
+        console.log(e.detail); // 1

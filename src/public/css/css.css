@@ -1,0 +1,89 @@
+@charset "utf-8";
+body {
+    background-color: black;
+    color: white;
+    font-family: "Source Sans Pro";
+    /* font-size: 16px; */
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    padding: 3px 5px;
+    border: 1px solid gray;
+}
+
+#lista-palabras {
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* flex-wrap: nowrap;
+    flex-direction: column; */
+}
+
+#lista-palabras article {
+    border: 1px solid red;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    background-color: gray;
+}
+
+span[id*="btn"] {
+    border: 1px solid green;
+    border-radius: 10px;
+    background-color: blue;
+    padding: 3px 5px;
+}
+
+.control,.control p{
+    width: 380px;
+    /* display: inline-block; */
+}
+strong{
+    color: yellow;
+}
+button {
+    /* color: aliceblue; */
+    /* width: 100px; */
+}
+
+.detail {
+    /* display: flex; */
+    /* justify-content: center; */
+    /* flex-direction: ; */
+}
+
+#actualiza {
+    text-align: center;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+
+form {
+    display: inline-block;
+    /* background-color: aqua; */
+    border: 1px solid red;
+    width: 800;
+    padding: 20px 30px;
+    margin:0 auto;
+}
+
+form p label,
+input,
+select {
+    border: none;
+    width: 300px;
+    text-align: left;
+    display: inline-block;
+}
+
+h3 {
+    margin: 0 0 20px;
+}
+tr{
+    /* display: flex; */
+}
+th{
+    padding: 2px 4px;
+    border: 1px solid red;
+}

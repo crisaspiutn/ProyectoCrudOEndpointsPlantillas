@@ -1,0 +1,3 @@
+git config --global --add safe.directory G:/Archivos/proye/proyectos-node-express/proyecto-hbs
+
+ahora si muestra master en la consola

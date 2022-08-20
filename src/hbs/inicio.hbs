@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/css.css">
+  <title>{{titulo}}</title>
+</head>
+<body>
+  {{!-- <h1 id="fecha">{{pagina}}</h1> --}}
+  <span id="btn-list">ver lista</span>
+  <span id="btn-add">agregar</span>
+  <span id="boton-sube">agregar</span>
+  {{!-- <h2>lo que sigue es de la lista</h2> --}}
+  <table id="lista-palabras">
+  {{!-- {{#each lista}} --}}
+  {{!-- <article>
+    <div class="detail">
+    <p><strong>en ingles&nbsp;</strong><span>{{this.ing}}</span></p>
+    <p><strong>en español:&nbsp;</strong>{{this.esp}}</p>
+    <p><strong>caracteristica:&nbsp;</strong>{{this.caract}}</p>
+    <p><strong>tipo:&nbsp;</strong>{{this.tipo}}</p>
+    <p><strong>ambito:&nbsp;</strong>{{this.ambito}}</p>
+    </div>
+    <div class="control">
+      <p><strong>fecha de creacion:&nbsp;</strong><span class="fecha">{{this.time_create}}</span></p>
+      <p><strong>cuando repasare:&nbsp;</strong><span class="fecha">{{this.time_repaso}}</span></p>
+      <p><strong>tiempo restante:&nbsp;</strong><span class="espera">{{this.time_espera}}</span></p>
+      <p class="estado">descanso</p>
+      <button>repasado</button>
+      <button>modificar</button>
+    </div>
+
+  </article> --}}
+  {{!-- {{/each}} --}}
+  </table>
+  <form action="/add" method="post">
+  <p><label for="ing">ing</label><input type="text" name="ing" placeholder="ing"></p>
+  <p><label for="esp">esp</label><input type="text" name="esp" placeholder="esp"></p>
+  <p><label for="caract">caract</label><input type="text" name="caract" placeholder="caract"></p>
+  <p><label for="tipo">tipo</label><input type="text" name="tipo" placeholder="tipo"></p>
+  <p><label for="ambito">ambito</label><input type="text" name="ambito" placeholder="ambito"></p>
+  <button>enviar</button>
+  </form>
+  <audio src="Eddosaster - SOLA ft.mp3" id="audio" controls></audio>
+
+  <script src="js/refactorizadores/customizar_fechas.js"></script>
+  <script src="js/hora.js"></script>
+  <script src="js/js.js"></script>
+</body>
+</html>
